@@ -1,0 +1,2 @@
+2: eth0: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc mq state UP mode DEFAULT group default qlen 1000
+    link/ether 70:54:d2:bf:66:73 brd ff:ff:ff:ff:ff:ff

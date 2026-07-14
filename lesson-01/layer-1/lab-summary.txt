@@ -1,0 +1,52 @@
+==============================================
+CEOBEAST UNIVERSITY — LAB REPORT
+==============================================
+Lesson:     01 — Networking Fundamentals
+Layer:      1 — Physical
+Date:       July 14, 2026
+Student:    ceobeast
+Machine:    ceobeast1
+==============================================
+
+FINDINGS:
+---------
+Interface:    eth0
+State:        UP — LOWER_UP (physical signal confirmed)
+Speed:        1000Mb/s (1 Gigabit)
+Duplex:       Full (simultaneous send and receive)
+Port type:    Twisted Pair copper cable
+MAC Address:  70:54:d2:bf:66:73
+MTU:          1500 bytes
+Auto-negotiate: ON — negotiated to maximum speed
+
+TRAFFIC OBSERVED:
+-----------------
+Total received:    110,131,008 bytes (110 MB)
+Total transmitted:  59,066,341 bytes (59 MB)
+Total packets RX:      120,476
+Total packets TX:       99,269
+Errors:             0 (perfect connection)
+
+CONCLUSIONS:
+------------
+1. Layer 1 is fully operational on eth0
+2. Physical connection is clean — zero errors
+3. Running at maximum gigabit speed
+4. Full duplex — data flows both directions simultaneously
+5. Twisted pair cable confirmed — electromagnetic interference
+   protection active
+
+SECURITY NOTES:
+---------------
+- Physical access to this cable = Layer 1 compromise
+- No firewall can stop a physical wiretap
+- Link speed reveals network value to attacker
+- Physical security is the foundation of all cybersecurity
+
+FILES SAVED:
+------------
+- ethtool-results.txt   (physical link properties)
+- interface-stats.txt   (traffic counters)
+- link-info.txt         (interface state)
+- lab-summary.txt       (this file)
+==============================================
