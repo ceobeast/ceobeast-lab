@@ -1,0 +1,31 @@
+==============================================
+LAB 2.3 — MAC SPOOFING
+Date: July 26, 2026
+Student: ceobeast
+==============================================
+
+REAL MAC:    70:54:d2:bf:66:73 (Hewlett Packard)
+SPOOFED MAC: DE:AD:BE:EF:00:01 (Not registered)
+
+COMMANDS USED:
+sudo ip link set eth0 down
+sudo ip link set eth0 address DE:AD:BE:EF:00:01
+sudo ip link set eth0 up
+
+VERIFIED:
+- Network saw DE:AD:BE:EF:00:01
+- permaddr showed real MAC preserved
+- Vendor lookup returned Not Found
+- Successfully restored original MAC
+
+ATTACK SCENARIOS:
+1. Bypass MAC filtering on routers
+2. Impersonate legitimate device on network
+3. Evade network monitoring systems
+4. Hide hardware identity during pentest
+
+DEFENSE:
+- 802.1X authentication (not just MAC filtering)
+- Network monitoring for MAC changes
+- Dynamic ARP Inspection (DAI) on switches
+==============================================

@@ -1,0 +1,24 @@
+==============================================
+CEOBEAST HOME NETWORK MAP
+Date: July 26, 2026
+Network: 192.168.18.0/24
+==============================================
+
+DEVICES FOUND:
+192.168.18.1  5C:7D:AE:F3:95:6D  ZTE Corporation    Router/Gateway
+192.168.18.2  2A:3F:BD:58:8A:38  Unknown (random)   Smartphone
+192.168.18.4  70:54:d2:bf:66:73  Hewlett Packard     Kali Linux PC
+192.168.18.6  DE:6F:22:34:4D:D8  Unknown (random)   Smartphone
+
+SECURITY FINDINGS:
+- 2 smartphones with randomized MACs — privacy mode on
+- ZTE router — check default credentials
+- All devices 1 hop from gateway — flat network
+- No unknown servers or suspicious services detected
+
+TOOLS USED:
+- nmap -sn (ping sweep)
+- nmap -sV -O (service + OS detection)
+- tcpdump (ARP capture)
+- arp -a (ARP table)
+==============================================
