@@ -27,3 +27,37 @@ cat > README.md << 'EOF'
 ---
 
 ## Lab Structure
+
+
+---
+
+## Certifications Roadmap
+
+| Certification | Target | Status |
+|--------------|--------|--------|
+| TryHackMe Top 1% | Q4 2026 | ⏳ |
+| eJPT | Q1 2027 | 🔒 |
+| CEH | Q3 2027 | 🔒 |
+| OSCP | Q1 2028 | 🔒 |
+| ISO 27001 Lead Auditor | Q2 2028 | 🔒 |
+
+---
+
+## Tools Installed
+
+Kali Linux 2026.1 | Nmap 7.99 | Burp Suite | Wireshark
+Metasploit | sqlmap | Hydra | John | Hashcat
+Maltego | recon-ng | theHarvester | Autopsy
+
+---
+
+## 2028 Vision
+
+> Build Kenya's premier cybersecurity firm.
+> Audit CBK regulated DCPs.
+> Launch CEOBEAST University.
+> Partner with global organizations.
+> Top 3 cybersecurity institution in Africa.
+
+*Nairobi → The World. 2026 → 2028.*
+EOF
