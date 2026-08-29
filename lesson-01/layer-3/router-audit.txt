@@ -1,0 +1,17 @@
+ROUTER SECURITY AUDIT
+Date: August 29, 2026
+Target: 192.168.18.1 (Airtel ZTE Router)
+Auditor: ceobeast
+
+OPEN PORTS:
+53/tcp   - DNS
+80/tcp   - HTTP admin
+443/tcp  - HTTPS admin
+3517/tcp - WiFi management
+
+FINDINGS:
+- Admin password set by user
+- HTTP access available on port 80
+- Recommend HTTPS only access
+
+STATUS: ACCEPTABLE

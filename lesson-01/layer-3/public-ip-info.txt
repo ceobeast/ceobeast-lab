@@ -1,0 +1,12 @@
+{
+  "ip": "154.159.237.168",
+  "hostname": "168-237-159-154.r.airtelkenya.com",
+  "city": "Nairobi",
+  "region": "Nairobi County",
+  "country": "KE",
+  "loc": "-1.2833,36.8167",
+  "org": "AS36926 Airtel Networks Kenya Limited",
+  "postal": "00800",
+  "timezone": "Africa/Nairobi",
+  "readme": "https://ipinfo.io/missingauth"
+}
