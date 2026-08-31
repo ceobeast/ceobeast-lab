@@ -15,3 +15,4 @@ FINDINGS:
 - Recommend HTTPS only access
 
 STATUS: ACCEPTABLE
+TryHackMe VPN: ~/Downloads/us-east-1-CEOBEAST1-regular.ovpn
