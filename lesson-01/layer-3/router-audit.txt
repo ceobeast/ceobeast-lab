@@ -16,3 +16,4 @@ FINDINGS:
 
 STATUS: ACCEPTABLE
 TryHackMe VPN: ~/Downloads/us-east-1-CEOBEAST1-regular.ovpn
+3517/tcp open - 802-11-iapp - WiFi management protocol exposed
