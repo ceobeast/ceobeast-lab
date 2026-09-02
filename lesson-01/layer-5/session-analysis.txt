@@ -1,0 +1,32 @@
+==============================================
+LAYER 5 SESSION ANALYSIS
+Date: September 2, 2026
+Student: ceobeast
+==============================================
+
+ACTIVE SESSIONS IDENTIFIED:
+- Google LLC (Mombasa, Kenya node)
+- GitHub Inc (Virginia, USA)
+- Cloudflare CDN (anycast)
+- Akamai CDN (anycast) — HTTP ⚠️
+- Meta/WhatsApp (Johannesburg, SA)
+
+SESSION TOKEN ANALYSIS — web.whatsapp.com:
+wa_ul: session identifier
+wa_web_access_token: main auth token (162 bytes)
+wa_lan: language preference
+
+SECURITY PROPERTIES:
+HttpOnly: true  — XSS protection active
+Secure: true    — HTTPS only transmission
+SameSite: Lax   — CSRF protection active
+
+ATTACK VECTOR:
+Token theft requires Layer 2 MITM + SSL strip
+Not possible with current HTTPS + HttpOnly config
+
+DEFENSE:
+- HTTPS enforced ✅
+- HttpOnly cookies ✅
+- Short session timeouts recommended
+==============================================
