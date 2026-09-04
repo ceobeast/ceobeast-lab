@@ -1,0 +1,114 @@
+Certificate:
+    Data:
+        Version: 3 (0x2)
+        Serial Number:
+            03:95:ff:5f:98:68:23:75:f8:33:ef:5c:b9:7c:1a:02
+        Signature Algorithm: sha256WithRSAEncryption
+        Issuer: C=US, O=DigiCert Inc, CN=DigiCert Global G2 TLS RSA SHA256 2020 CA1
+        Validity
+            Not Before: May  6 00:00:00 2026 GMT
+            Not After : Nov 20 23:59:59 2026 GMT
+        Subject: C=KE, L=Nairobi, O=Safaricom PLC, CN=safaricom.co.ke
+        Subject Public Key Info:
+            Public Key Algorithm: rsaEncryption
+                Public-Key: (2048 bit)
+                Modulus:
+                    00:a9:b6:4d:2d:8e:d0:26:50:21:29:8c:bd:12:31:
+                    d1:83:5c:0c:ef:a3:e9:19:f3:2e:28:58:0b:1a:51:
+                    d3:54:d1:05:5e:b2:23:12:9d:73:d9:dd:9e:b2:b2:
+                    28:75:3b:9c:86:9b:64:37:ad:4f:21:b7:cf:6a:f7:
+                    6b:b7:b2:5a:d1:42:4f:4d:f9:14:ff:58:d2:df:36:
+                    2c:d8:99:e2:47:2c:85:8e:b8:2b:2a:f9:57:32:1f:
+                    d1:52:4b:45:c1:b0:d3:20:e7:5d:5c:e5:47:05:c7:
+                    19:ab:61:f4:72:c9:78:ba:8b:dc:57:fd:5d:51:73:
+                    e1:6c:ed:5d:ec:fe:17:1e:3b:9f:27:b5:61:f9:00:
+                    41:75:da:1f:cf:f3:3f:f1:34:6a:84:7f:39:b8:ea:
+                    8b:c6:8d:14:ee:6b:1b:d2:1a:25:3f:6d:20:8c:36:
+                    b9:36:d5:ac:1b:14:64:98:80:da:8f:a4:e2:e3:83:
+                    5f:28:77:1c:09:2e:a9:97:40:bc:25:33:bc:7a:dc:
+                    cc:07:51:9f:96:f9:02:cf:c0:54:61:ad:d4:bf:87:
+                    96:45:d1:2f:65:6f:69:ba:64:3a:ac:e1:4a:4a:8f:
+                    2e:43:1a:9b:94:66:06:12:fe:a8:6e:7c:27:df:db:
+                    ee:66:73:a3:8f:ec:e0:a6:39:b4:47:33:ca:75:e3:
+                    cb:95
+                Exponent: 65537 (0x10001)
+        X509v3 extensions:
+            X509v3 Authority Key Identifier: 
+                74:85:80:C0:66:C7:DF:37:DE:CF:BD:29:37:AA:03:1D:BE:ED:CD:17
+            X509v3 Subject Key Identifier: 
+                3B:A3:D0:67:A3:1B:01:C6:4B:0F:D9:6B:05:37:2B:0C:4A:FE:EA:5E
+            X509v3 Subject Alternative Name: 
+                DNS:safaricom.co.ke, DNS:www.safaricom.co.ke
+            X509v3 Certificate Policies: 
+                Policy: 2.23.140.1.2.2
+                  CPS: http://www.digicert.com/CPS
+            X509v3 Key Usage: critical
+                Digital Signature, Key Encipherment
+            X509v3 Extended Key Usage: 
+                TLS Web Server Authentication
+            X509v3 CRL Distribution Points: 
+                Full Name:
+                  URI:http://crl3.digicert.com/DigiCertGlobalG2TLSRSASHA2562020CA1-1.crl
+
+                Full Name:
+                  URI:http://crl4.digicert.com/DigiCertGlobalG2TLSRSASHA2562020CA1-1.crl
+
+            Authority Information Access: 
+                OCSP - URI:http://ocsp.digicert.com
+                CA Issuers - URI:http://cacerts.digicert.com/DigiCertGlobalG2TLSRSASHA2562020CA1-1.crt
+            X509v3 Basic Constraints: critical
+                CA:FALSE
+            CT Precertificate SCTs: 
+                Signed Certificate Timestamp:
+                    Version   : v1 (0x0)
+                    Log ID    : C2:31:7E:57:45:19:A3:45:EE:7F:38:DE:B2:90:41:EB:
+                                C7:C2:21:5A:22:BF:7F:D5:B5:AD:76:9A:D9:0E:52:CD
+                    Timestamp : May  6 08:25:22.884 2026 GMT
+                    Extensions: none
+                    Signature : ecdsa-with-SHA256
+                                30:45:02:20:1D:9F:41:44:A2:16:0E:9C:BE:B7:03:98:
+                                80:AA:2B:01:91:2F:05:70:72:96:09:F2:8A:73:75:22:
+                                9C:F1:77:C7:02:21:00:97:F2:FB:73:AA:13:5D:4B:2A:
+                                B5:AC:F4:F3:EE:75:B9:EE:D7:10:CC:01:85:8E:34:72:
+                                59:C0:1F:2C:83:3F:2B
+                Signed Certificate Timestamp:
+                    Version   : v1 (0x0)
+                    Log ID    : D7:6D:7D:10:D1:A7:F5:77:C2:C7:E9:5F:D7:00:BF:F9:
+                                82:C9:33:5A:65:E1:D0:B3:01:73:17:C0:C8:C5:69:77
+                    Timestamp : May  6 08:25:22.841 2026 GMT
+                    Extensions: none
+                    Signature : ecdsa-with-SHA256
+                                30:44:02:20:07:3C:C4:43:B2:3E:60:68:3F:82:21:D5:
+                                DE:D4:C6:E7:44:52:7E:0E:2E:DD:EE:06:7C:9D:2E:90:
+                                28:41:B1:44:02:20:36:2F:FE:3E:58:31:1A:35:17:B6:
+                                8B:9C:97:A1:19:1C:3F:B0:7D:0B:4E:08:FB:03:0A:C1:
+                                BF:83:F4:FB:CF:70
+                Signed Certificate Timestamp:
+                    Version   : v1 (0x0)
+                    Log ID    : 94:4E:43:87:FA:EC:C1:EF:81:F3:19:24:26:A8:18:65:
+                                01:C7:D3:5F:38:02:01:3F:72:67:7D:55:37:2E:19:D8
+                    Timestamp : May  6 08:25:22.900 2026 GMT
+                    Extensions: none
+                    Signature : ecdsa-with-SHA256
+                                30:44:02:20:51:BD:9C:1D:B9:9C:94:AA:D2:1F:DC:8A:
+                                AD:A0:18:49:02:65:E0:3A:B2:A2:BC:0F:AE:23:89:42:
+                                0F:A2:45:E7:02:20:57:9A:11:D8:21:59:F0:69:81:50:
+                                35:DA:D6:3B:A5:8F:19:4F:04:26:F3:BD:8E:F2:1B:3C:
+                                46:15:BA:5A:EB:44
+    Signature Algorithm: sha256WithRSAEncryption
+    Signature Value:
+        63:3e:81:73:5d:f6:9d:e8:31:19:08:2e:22:e9:e2:b1:88:49:
+        0d:3e:98:de:bf:76:8f:08:ec:d0:e7:24:7b:5a:64:2f:65:f4:
+        d3:eb:ad:28:c4:0f:d6:b1:5a:01:7d:46:50:7a:e2:5c:42:d8:
+        0a:da:37:dc:6b:58:2e:de:f5:49:98:f8:39:ed:f5:47:e3:9f:
+        62:a6:b2:9b:07:21:e9:aa:d7:87:0f:8d:c1:4f:b5:58:c1:58:
+        5e:cd:a2:9a:5c:e7:2f:81:6c:46:4a:a6:d6:28:ad:09:5f:8e:
+        b8:e1:76:e2:2a:4b:0b:38:b2:37:c1:85:ab:0c:e9:61:3a:ac:
+        fc:1f:f8:1d:14:9d:60:c6:52:db:ea:83:87:2f:d4:e6:dc:7b:
+        31:aa:33:bf:f8:ff:80:22:78:a7:e1:d5:80:a0:9e:a8:9e:1f:
+        de:f3:8b:07:2f:e6:74:a2:ee:4e:6f:6d:27:2e:e2:1a:d3:82:
+        7c:36:86:cb:03:4e:41:89:75:20:b2:d8:0a:ce:77:d8:61:1d:
+        1d:d1:42:71:2e:1a:a2:18:0b:72:1e:b1:6a:bb:8d:97:5a:38:
+        0f:6b:83:1f:5a:d4:38:15:08:b3:a4:0a:92:ce:0a:9a:87:32:
+        b2:d3:c3:16:15:50:13:d7:83:07:e3:e6:2b:b6:0a:93:50:ef:
+        38:38:94:d1
