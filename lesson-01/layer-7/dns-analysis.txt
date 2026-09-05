@@ -1,0 +1,60 @@
+
+; <<>> DiG 9.20.26-1-Debian <<>> smartkredo.co.ke
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 33450
+;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 1232
+;; QUESTION SECTION:
+;smartkredo.co.ke.		IN	A
+
+;; ANSWER SECTION:
+smartkredo.co.ke.	7391	IN	A	104.21.72.131
+
+;; Query time: 3 msec
+;; SERVER: 192.168.18.1#53(192.168.18.1) (UDP)
+;; WHEN: Sat Sep 05 08:12:07 EAT 2026
+;; MSG SIZE  rcvd: 61
+
+
+; <<>> DiG 9.20.26-1-Debian <<>> MX smartkredo.co.ke
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 9632
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 1, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 1232
+;; QUESTION SECTION:
+;smartkredo.co.ke.		IN	MX
+
+;; AUTHORITY SECTION:
+smartkredo.co.ke.	1395	IN	SOA	veda.ns.cloudflare.com. dns.cloudflare.com. 2413588854 10000 2400 604800 1800
+
+;; Query time: 103 msec
+;; SERVER: 192.168.18.1#53(192.168.18.1) (UDP)
+;; WHEN: Sat Sep 05 08:12:07 EAT 2026
+;; MSG SIZE  rcvd: 107
+
+
+; <<>> DiG 9.20.26-1-Debian <<>> TXT smartkredo.co.ke @1.1.1.1
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 31404
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 1, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 1232
+;; QUESTION SECTION:
+;smartkredo.co.ke.		IN	TXT
+
+;; AUTHORITY SECTION:
+smartkredo.co.ke.	1736	IN	SOA	veda.ns.cloudflare.com. dns.cloudflare.com. 2413588854 10000 2400 604800 1800
+
+;; Query time: 119 msec
+;; SERVER: 1.1.1.1#53(1.1.1.1) (UDP)
+;; WHEN: Sat Sep 05 08:12:07 EAT 2026
+;; MSG SIZE  rcvd: 107
+

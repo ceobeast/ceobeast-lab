@@ -1,0 +1,17 @@
+HTTP/1.1 301 Moved Permanently
+Location: https://www.safaricom.co.ke/
+Content-Length: 0
+Strict-Transport-Security: max-age=31536000
+Connection: close
+
+HTTP/2 405 
+date: Sat, 05 Sep 2026 05:12:12 GMT
+server: cloudflare
+allow: GET
+strict-transport-security: max-age=31536000
+cf-cache-status: DYNAMIC
+report-to: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=pplvOhJUzwSBbEs9gwxQgimr79l6XuFefKe32kZgIzMa6XtpS%2BaFhtocP%2BFDb9bF4hpUZ2vrAPU8JzzSKI7AiTOUv2l5vXMqh53Fm8ULYo9pYhatdbGO59hgn3hHb0OGv5Rt"}]}
+nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+cf-ray: a362bcd869a3b14b-LOS
+alt-svc: h3=":443"; ma=86400
+
