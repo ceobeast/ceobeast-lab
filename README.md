@@ -1,5 +1,3 @@
-cd ~/ceobeast-lab
-cat > README.md << 'EOF'
 # CEOBEAST Cybersecurity Lab
 > *"I couldn't afford school fees. So I built my own university."*
 
@@ -7,7 +5,7 @@ cat > README.md << 'EOF'
 **Institution:** CEOBEAST University — Nairobi, Kenya
 **Program:** Professional Cybersecurity Engineering
 **Machine:** Kali Linux 2026.1 — HP h8-1360t — Intel i7 — 12GB RAM
-**Goal:** Licensed Security Firm — Kenya — 2028 | BMW M2
+**Goal:** Licensed Security Firm — Kenya — 2028
 
 ---
 
@@ -18,7 +16,11 @@ cat > README.md << 'EOF'
 | 01 | Networking Fundamentals | 🔄 In Progress | - |
 | 01 | └── Layer 1 Physical | ✅ Complete | 100% |
 | 01 | └── Layer 2 Data Link | ✅ Complete | 95% |
-| 01 | └── Layer 3 Network | ⏳ Pending | - |
+| 01 | └── Layer 3 Network | ✅ Complete | 80% |
+| 01 | └── Layer 4 Transport | ✅ Complete | 90% |
+| 01 | └── Layer 5 Session | ✅ Complete | 97% |
+| 01 | └── Layer 6 Presentation | ✅ Complete | 87% |
+| 01 | └── Layer 7 Application | 🔄 In Progress | - |
 | 02 | Linux Mastery | 🔒 Locked | - |
 | 03 | Python + Bash Scripting | 🔒 Locked | - |
 | 04 | Reconnaissance | 🔒 Locked | - |
@@ -43,11 +45,18 @@ cat > README.md << 'EOF'
 
 ---
 
-## Tools Installed
+## Real World Labs Completed
 
-Kali Linux 2026.1 | Nmap 7.99 | Burp Suite | Wireshark
-Metasploit | sqlmap | Hydra | John | Hashcat
-Maltego | recon-ng | theHarvester | Autopsy
+| Lab | Target | Finding |
+|-----|--------|---------|
+| ARP Capture | Home network | Router keepalive every 6 seconds |
+| MAC Spoofing | Own machine | DE:AD:BE:EF:00:01 successful |
+| Router Audit | 192.168.18.1 | Port 80 HTTP open — MEDIUM |
+| SSL Audit | safaricom.co.ke | DigiCert — expires Nov 2026 |
+| SSL Audit | kcbgroup.com | Google Trust — DV only |
+| SSL Audit | kra.go.ke | DigiCert OV — expires Jan 2027 |
+| Self Audit | smartkredo.co.ke | Cert expires Oct 15 2026 — URGENT |
+| DNS Analysis | smartkredo.co.ke | Cloudflare protected — real IP hidden |
 
 ---
 
@@ -60,4 +69,3 @@ Maltego | recon-ng | theHarvester | Autopsy
 > Top 3 cybersecurity institution in Africa.
 
 *Nairobi → The World. 2026 → 2028.*
-EOF
