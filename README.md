@@ -13,14 +13,14 @@
 
 | Lesson | Topic | Status | Score |
 |--------|-------|--------|-------|
-| 01 | Networking Fundamentals | 🔄 In Progress | - |
+| 01 | Networking Fundamentals | ✅ Complete | 90% |
 | 01 | └── Layer 1 Physical | ✅ Complete | 100% |
 | 01 | └── Layer 2 Data Link | ✅ Complete | 95% |
 | 01 | └── Layer 3 Network | ✅ Complete | 80% |
 | 01 | └── Layer 4 Transport | ✅ Complete | 90% |
 | 01 | └── Layer 5 Session | ✅ Complete | 97% |
 | 01 | └── Layer 6 Presentation | ✅ Complete | 87% |
-| 01 | └── Layer 7 Application | 🔄 In Progress | - |
+| 01 | └── Layer 7 Application | ✅ Complete | 83% |
 | 02 | Linux Mastery | 🔒 Locked | - |
 | 03 | Python + Bash Scripting | 🔒 Locked | - |
 | 04 | Reconnaissance | 🔒 Locked | - |
